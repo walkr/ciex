@@ -1,0 +1,3 @@
+[settings.app.error]
+localpath = /foo/bar/2
+repo = git@github.com:walkr/test.git

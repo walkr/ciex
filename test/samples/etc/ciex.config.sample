@@ -1,0 +1,21 @@
+[settings]
+
+[settings.app.appname1]
+
+repo = git@github.com:walkr/test.git
+src_path = /tmp/ciex
+install_path = /tmp/ciex/installs
+
+worker_dirpath = .
+worker_modname = .
+worker_classname = ElixirCIWorker
+
+
+[settings.app.appname2]
+repo = git@github.com:walkr/test.git
+src_path = /tmp/ciex/file_ring
+install_path = /tmp/ciex/installs
+
+worker_dirpath = /tmp/workers.sample
+worker_modname = workers
+worker_classname = CustomWorker2
